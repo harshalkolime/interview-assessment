@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <style>
+    /* Styling for the music player */
+    .player-container {
+      width: 300px;
+      background-color: #7c6c6c;
+      padding: 10px;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    button {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <h2>Music Player</h2>
+    <audio id="audioPlayer" controls>
+      <source src="./file_example_MP3_2MG.mp3" type="audio/mp3">
+    </audio>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+  </div>
+
+  <script>
+    let audioPlayer = document.getElementById("audioPlayer");
+
+    function playAudio() {
+      audioPlayer.play();
+    }
+
+    function pauseAudio() {
+      audioPlayer.pause();
+    }
+  </script>
+</body>
+</html>

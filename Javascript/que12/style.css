@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  background-color: rgb(189, 231, 255);
+
+}
+
+body{
+  background-color: rgb(108, 179, 183);
+}
+
+.create-blog-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(213, 182, 182);
+}
+
+.posts-container {
+  align-items: flex-start;
+  max-width: 800px;
+  margin: auto;
+  border: black 2px solid;
+  margin-top: 30px;
+}
+
+.post h2,
+.post p {
+  margin: 6px 0;
+}

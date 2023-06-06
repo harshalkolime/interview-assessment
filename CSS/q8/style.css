@@ -1,0 +1,32 @@
+*{font-size: 15px;}
+
+table {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+th, td {
+    border: 1px  ;
+
+    text-align: center;
+  
+}
+
+.red{
+     
+    border: black solid 2px;
+
+    background: rgb(233, 119, 119);}
+
+.yellow{background-color: rgb(251, 251, 48);
+    border: black solid 2px;
+}
+
+.blue{
+    border: black 2px solid;
+    background:rgb(146, 189, 238);}
+
+.green{
+    background-color: rgb(149, 227, 76);
+    border: solid black 2px;
+}
